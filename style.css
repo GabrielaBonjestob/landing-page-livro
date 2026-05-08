@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b29c78;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.header { 
+    width: 100%;
+    padding: 18px 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap;
+    gap: 20px; */
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #e7c27a;
+    color: #3a2a1a;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #f0d08e;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #e7c27a;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.barra-pesquisa input {
+    width: 140px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 6px 10px;
+    color: #3a2a1a;
+    font-size: 11px;
+}
+
+.barra-pesquisa button {
+    border-radius: none;
+    background: transparent;
+    padding-left: 4px;
+    cursor: pointer;
+    color: #3a2a1a;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.hero-overlay {
+    width: 100%;
+    max-width: 315px;
+    background: linear-gradient(to button, #161616, #1d1d1d, #2d2925, #4a4037);
+    padding: 18px 18px 50px;
+    border-radius: 0 0 18px 18px;
+    text-align: center;
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0;
+}
+
